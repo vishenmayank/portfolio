@@ -96,38 +96,6 @@ header{
     display: none;
     cursor: pointer;
 }
-/* .hamburger-menu-container{
-    font-size: 3.6rem;
-    color: var(--main-color);
-    display: none;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-}
-.hamburger-menu {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -64px;
-    right: -58px;
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .hamburger-icon {
-    font-size: 16px;
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-  }
-  .close-icon {
-    position: absolute;
-    top: 8px;
-    right: 12px;
-    cursor: pointer;
-    display: none;
-  } */
 #check:checked~ .navbar{
     left: 50%;
 }
@@ -173,15 +141,7 @@ header{
         font-size: 2.5rem;
         top: 3rem;
     }
-    /* .close-icon,.hamburger-menu-container {
-        display: block;
-    }
-    .menu-open nav {
-        /* display: flex; */
-
-      /* .menu-open .hamburger-menu-container {
-        display: none;
-    } */
+    
 }
 
 /* section{
