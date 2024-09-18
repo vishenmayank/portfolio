@@ -427,7 +427,15 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:615px){
+    .about .about-img{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    .about{
+        padding-block: 0;
+    }
     .about .about-img{
         margin-top: 2rem;
         margin-right: 4rem;
@@ -435,7 +443,7 @@ span{
         padding-bottom: 0;
     }
     .about .about-img img {
-        width: 40vw;
+        width: 30vw;
         padding-bottom: 0;  
     }
     .about-content .btn{
@@ -459,17 +467,18 @@ span{
         max-width:35rem;
     }
     .about {
-        flex-direction: column-reverse;
+        flex-direction: row;
+        padding-inline: 2rem;
+        gap: 5rem;
     }
     .about-content{
         margin: 1rem 4rem;
     }
     .about .about-img{
         position: relative;
-        top: -20rem;
-        width: 30vw;
-        padding-top: 0;
-        
+        top: 3rem;
+        width: 30%;
+        margin-left: 5rem;
         margin-bottom: 3rem;
     }
 }
